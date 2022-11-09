@@ -1,0 +1,5 @@
+import requests
+
+page = requests.get("https://version3.guestworkervisas.com/newversionemailer.php")
+print(page.status_code)
+print(page.content.prettify)
