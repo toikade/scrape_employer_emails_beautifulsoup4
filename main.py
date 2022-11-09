@@ -13,3 +13,4 @@ for row in rows:
     mail = row.select("td")[2].get_text()
     recruiter_title = row.select("td")[5].get_text()
     print(mail, "||", recruiter_title)
+    print(type(mail), type(recruiter_title))
